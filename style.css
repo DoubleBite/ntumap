@@ -1,0 +1,242 @@
+/*
+    基本設定:reset
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+[class^="col-"] {
+    float: left;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: url(/photos/blossom.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #eeeeee;
+    position: fixed;
+    z-index: 50;
+}
+
+nav,
+footer {
+    background-color: #fdfbf2;
+    opacity: 0.9;
+}
+
+nav li {
+    display: inline;
+    padding: 20px 8px;
+}
+
+nav li a {
+    color: #999f95;
+    font-size: 14px;
+}
+
+.box {
+    float: right;
+    margin: -55px 60px;
+}
+
+nav h2 {
+    display: block;
+    color: cornflowerblue;
+    text-shadow: 1px, 1px;
+    letter-spacing: 0.3em;
+    margin: 30px;
+    margin-right: 500px;
+    font-family: monospace;
+    line-height: 35px;
+    font-size: 40px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-weight: bold;
+    color: #fff;
+    font: 12px Century Gothic, 微軟正黑體;
+    padding: 1px 3px;
+    background-color: #1CB990;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1:hover {
+    cursor: s-resize;
+}
+
+
+/*                //////////////////////////////////////////////////////////////*/
+
+.thumbnail h3 {
+    font-size: 25px;
+    padding: 0px;
+    margin-top: 1px;
+    background-color: #365899;
+}
+
+.open-map {
+    margin-top: 110px;
+    background: url(http://img1.wikia.nocookie.net/__cb20140224040010/shantae/images/b/bc/HGH_border_bottom.png);
+    background-size: contain;
+}
+
+.close-map {
+    background: url(http://vignette1.wikia.nocookie.net/shantae/images/0/0b/HGH_border_top.png/revision/latest?cb=20140225054958);
+    background-size: contain;
+}
+
+.map {
+    position: relative;
+    text-align: center;
+    background-color: #2f99bc;
+    background-size: cover;
+    background-repeat: repeat;
+    background: url(http://png.clipart.me/graphics/thumbs/146/night-sky-with-stars_14615989.jpg);
+}
+
+.map img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+
+/*一整個美食元素的欄位*/
+
+#two {
+    position: absolute;
+    left: 61%;
+    top: 23%;
+    height: 50px;
+    width: 50px;
+}
+
+#three {
+    position: absolute;
+    left: 51%;
+    top: 23%;
+    height: 50px;
+    width: 50px;
+}
+
+#four {
+    position: absolute;
+    left: 59%;
+    top: 33%;
+    height: 50px;
+    width: 50px;
+}
+
+#five {
+    position: absolute;
+    left: 59%;
+    top: 13%;
+    height: 50px;
+    width: 50px;
+}
+
+.thumb_pic {
+    height: 75%;
+}
+
+.thumbnail {
+    height: 300px;
+    text-align: center;
+    float: left;
+    /*    position: absolute;*/
+    bottom: 0;
+    width: 390px;
+    /* .abgne_tip_gallery_block 的寬 - .caption 的左右 padding */
+    padding: 15px 30px 20px;
+    cursor: pointer;
+    color: #fff;
+    background: url(/photos/black.png) repeat;
+}
+
+.btn_to_blog {
+    background: linear-gradient(to bottom, #f85032 0%, #f02f17 2%, #f02f17 2%, #f16f5c 50%, #f6290c 51%, #e73827 100%);
+    clear: both;
+    width: 70%;
+    color: black;
+}
+
+.space {
+    height: 4px;
+}
+
+#three img {
+    width: 45%;
+}
+
+.inner_item {
+    font-size: 16px;
+    background-color: brown;
+}
+
+.footer {
+    margin-top: 13px;
+    background-color: #2f99bc;
+    background: url(photos/gifts.jpg);
+    background-size: contain;
+    height: 85px;
+    opacity: 0.7;
+}
+
+
+/*==================================*/
+
+#slideshow img {
+    margin: 0 auto;
+    height: 60%;
+}
+
+.abgne_tip_gallery_block {
+    margin: 0 auto;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+    background: url(/photos/2.%E9%9A%86%E8%96%A9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.abgne_tip_gallery_block .caption {
+    position: absolute;
+    top: 195px;
+    margin-left: 30.5%;
+    width: 39%;
+    height: 195;
+    /*         .abgne_tip_gallery_block 的寬 - .caption 的左右 padding*/
+    padding: 15px 30px 20px;
+    cursor: pointer;
+    color: #fff;
+    background: url(/photos/black.png) repeat;
+}
+
+.desc {
+    text-align: center;
+}
+
+.abgne_tip_gallery_block .caption h2 {
+    margin: 0;
+    padding: 0px 0px 15px;
+}
+
+.abgne_tip_gallery_block .caption h2 a {
+    text-decoration: none;
+    color: #fc6;
+}
+
+.abgne_tip_gallery_block .caption h2 a:hover {
+    text-decoration: underline;
+}
