@@ -15,13 +15,14 @@ $(function () {
     //滑鼠移到美食據點或保持在題目之中，題目彈出來
     $spot.mouseenter(function () {
         $(".thumbnail").hide();
+        setTimeout(function () {}, 800)
         $(this)
             .find(".thumbnail")
             .slideDown();
     });
 
     $thumbnail.mouseenter(function () {
-
+        setTimeout(function () {}, 800)
         $(this)
             .parent()
             .find(".thumbnail")
@@ -100,5 +101,18 @@ $(function () {
             }, _speed);
         });
     });
+
+
+    $(".abgne_tip_gallery_block").hover(function () {
+        $("#slideshow").carousel('pause');
+
+    });
+
+    $(".abgne_tip_gallery_block").mouseleave(function () {
+        $("#slideshow").carousel('cycle');
+
+    });
+
+
 
 });
